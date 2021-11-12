@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 1200px;
+    padding: 64px 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.header a {
+    color: #fff;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.account a {
+    display: flex;
+    align-items: center;
+}
+
+.account img {
+    margin-right: 10px;
+}
+
+.hero {
+    background: url(../img/BG.jpg) top center / cover no-repeat;
+    height: 160vh;
+}
+
+.hero-wrap {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 35%;
+    text-align: center;
+}
+
+.uptitle {
+    color: #FBD784;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+}
+
+.uptitle::before {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 2px;
+    background: #FBD784;
+    position: absolute;
+    left: 41%;
+    top: 66.5%;
+}
+
+.h1 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+}
+
+.scroll-down {
+    color: #fff;
+}
+
+.scroll-down::after {
+    content: '\2193';
+    padding: 16px;
+}
